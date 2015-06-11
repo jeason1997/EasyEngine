@@ -1,0 +1,29 @@
+﻿/*************************************************
+ * Copyright (c) 2015, JiaYing University
+ * All rights reserved.
+ * 
+ * EasyEngine是一个轻量级JAVA游戏引擎，引擎结构模仿COCOS2D-X，
+ * 其中物理引擎用的是BOX2D 2.2.1.1,图像界面用的是JAVA SWING，
+ * 暂时只支持WIN32版的游戏开发（未来会增加对Android及Linux的支
+ * 持）。本引擎遵循MIT开源协议。
+/*************************************************
+ 
+ 
+/**
+ * @ Project : EasyEngine
+ * @ File Name : EasyEngine.java
+ * @ Created : 2015/6/3
+ * @ Updated : 2015/6/11
+ * @ Author : Jeason1997
+ * @ Version : 1.0.0.6_11_Alpha
+ */
+
+/**
+ * 待解决问题:
+ * 1.debugInfo
+ * 2.添加版本识别，如果版本不是1.7，则提示不能使用高级画面
+ * 3.给所有文件添加头
+ * 4.加入异常处理取代（return null)
+ * 5.修复由于选择导致的BoundingBox失效的问题
+ * 6.解决父节点旋转子节点的旋转问题
+ */
